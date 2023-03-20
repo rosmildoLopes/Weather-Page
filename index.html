@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Página de clima</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="container">
+      <section class="temperature-now">
+        <div class="temperature-now__city">
+          <img src="./assets/icons/pin.svg" alt="location icon">
+          <strong>Buenos Aires</strong>
+        </div>
+        <div  class="temperature-now__temperature">
+          <div class="number">
+            18
+            <div class="temperature-now__minmax">
+              28°
+              <span>17°</span>
+            </div>
+          </div>
+          <div class="celsius">°C</div> 
+        </div>
+        
+         
+        <div class="temperature-now__statistic">
+          <div class="temperature-now__info">
+            <img src="./assets/icons/info-wind.svg">
+            <div class="info-label">
+              <p>Wind</p>
+              <h5>17 <span>km/h</span></h5>
+            </div>
+          </div>
+          <div class="temperature-now__info">
+            <img src="./assets/icons/info-humidity.svg" alt="humidity icon">
+            <div class="info-label">
+              <p>Humidity</p>
+              <h5>31<span>%</span></h5>
+            </div>
+          </div>
+          <div class="temperature-now__info">
+            <img src="./assets/icons/info-rain.svg" alt="rain icon">
+            <div class="info-label">
+              <p>Rain</p>
+              <h5>10 <span>%</span></h5>
+            </div>
+          </div>
+        </div>
+        
+      </section>
+      <section class="air-quality">
+        
+      </section>
+      <div class="air"></div>
+      <div class="suntime"></div>
+      <div class="week-time"></div>
+    </main>
+  </body>
+</html>
